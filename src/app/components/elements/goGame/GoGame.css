@@ -1,0 +1,7 @@
+.game-bg {
+  background-image: url('/images/darts.jpg');
+  background-attachment: fixed;     /* ← これがポイント */
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: left 20px;
+}

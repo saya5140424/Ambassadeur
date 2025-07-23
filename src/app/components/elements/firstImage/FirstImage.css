@@ -1,0 +1,55 @@
+.parallax-bg {
+  background-image: url('/images/firstImage.png');
+  background-attachment: fixed;     /* ← これがポイント */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-animation {
+  animation: fade 1s ease forwards;
+  animation-delay: 3s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.logo-mask {
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.logo-wipe {
+  position: relative;
+  animation: wipeRight 1s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-delay-0 {
+  animation-delay: 0s;
+}
+.animate-delay-500 {
+  animation-delay: 1s;
+}
+.animate-delay-1000 {
+  animation-delay: 1.5s;
+}
+
+@keyframes wipeRight {
+  0% {
+    clip-path: inset(0 100% 0 0);
+    opacity: 0;
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}

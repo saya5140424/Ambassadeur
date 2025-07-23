@@ -1,0 +1,7 @@
+.menu-bg {
+  background-image: url('/images/goMenu.jpg');
+  background-attachment: fixed;
+  background-size: 50% auto;          /* 横50%、縦は自動 */
+  background-repeat: no-repeat;
+  background-position: right 20px;    /* ちょっと下にずらす */
+}

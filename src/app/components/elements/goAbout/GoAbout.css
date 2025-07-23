@@ -1,0 +1,8 @@
+.about-bg {
+  background-image: url('/images/board.jpg');
+  background-color: #1a1a1a;
+  background-attachment: fixed;
+  background-size: 70% auto;          /* 横50%、縦は自動 */
+  background-repeat: no-repeat;
+  background-position: 150%;    /* ちょっと下にずらす */
+}
